@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canxx27 Film Platformu</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', sans-serif; background: #0d0d0d; color: #fff; line-height: 1.6; }
+        header { background: #1f1f1f; padding: 20px; text-align: center; font-size: 28px; font-weight: bold; color: #f39c12; }
+        .container { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
+        .card { background: #1c1c1c; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.5); transition: 0.3s; }
+        .card:hover { transform: scale(1.03); }
+        .card img { width: 100%; height: 360px; object-fit: cover; }
+        .info { padding: 15px; }
+        .info h2 { font-size: 20px; color: #f1c40f; margin-bottom: 10px; }
+        .info p { font-size: 14px; color: #ccc; }
+        .iframe-container { position: relative; width: 100%; padding-bottom: 56.25%; margin-top: 10px; }
+        .iframe-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        @media (max-width: 600px) {
+            .card img { height: 200px; }
+        }
+    </style>
+</head>
+<body>
+    <header>🎬 Canxx27 Film Platformu</header>
+    <div class="container">
+        <!-- Film 1 -->
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA1ZWMzNzctMjk0Yi00ZmQ2LTljN2EtOWQxZTg2ZTI1YTBiXkEyXkFqcGdeQXVyMTAzNjk5MDI4._V1_.jpg" alt="The Beekeeper">
+            <div class="info">
+                <h2>Arıcı: Ölüm Kovanı (The Beekeeper)</h2>
+                <p>2024 yapımı aksiyon filmi. Jason Statham'dan intikam dolu bir hikâye.</p>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/tCpF2pC5q4Q" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Film 2 -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4f/The_Mentalist_Logo.png" alt="The Mentalist">
+            <div class="info">
+                <h2>The Mentalist</h2>
+                <p>Zekasıyla suçları çözen Patrick Jane'in hikayesi. Polisiye ve gizem dolu bir dizi.</p>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/4lFZ-KJpL9A" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Film 3 -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/e5/Shadowhunters_promo_poster.jpg" alt="Shadowhunters">
+            <div class="info">
+                <h2>Shadowhunters: The Mortal Instruments</h2>
+                <p>Fantastik yaratıklar, büyü ve kaderin savaşı. Gençlik ve macera türünde dizi.</p>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/8l4yVg6ZCkE" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Film 4 -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/04/This_Is_the_End_poster.jpg" alt="Dünyanın Sonu">
+            <div class="info">
+                <h2>Dünyanın Sonu</h2>
+                <p>Kıyamet günü temalı kara komedi. James Franco ve Seth Rogen başrolde.</p>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/_eS1UvnHT5k" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Film 5 -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/93/The_Witcher_season_2.jpg" alt="The Witcher">
+            <div class="info">
+                <h2>The Witcher</h2>
+                <p>Geralt of Rivia'nın canavarlarla ve kaderle olan mücadelesi. Fantastik evrenin gözdesi.</p>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/ndl1W4ltcmg" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
